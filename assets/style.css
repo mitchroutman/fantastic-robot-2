@@ -26,12 +26,26 @@ main {
   flex-direction: inline;
 }
 
+#aboutme {
+  float: left;
+  
+}
+
 footer {
   text-align: center;
 }
 
 .navbar {
   background-color: var(--bkgcolor);
+  /* opacity: .03; */
+}
+
+.about-me-label {
+  color: var(--highlight);
+}
+
+.aboutme {
+  float: left;
 }
 
 .about-me-img {
@@ -57,6 +71,27 @@ footer {
 
 #portfolio-label {
   color: var(--highlight);
+}
+
+.card {
+  background: var(--medium);
+}
+
+.card-title {
+  color: var(--highlight);
+}
+
+.card-text {
+  color: white;
+}
+
+a:hover {
+  color: var(--highlight);
+}
+
+button:hover {
+  color: var(--highlight);
+  transition: all .3s ease-in-out;
 }
 
 /* -- MEDIA QUERIES -- */

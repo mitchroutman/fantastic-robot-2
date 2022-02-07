@@ -1,0 +1,140 @@
+:root {
+    --bkgcolor: #BDD5EA;
+    --dark: #495867;
+    --medium: #577399;
+    --light: #BDD5EA;
+    --highlight: #FE5F55;
+    --fntcolor: #F7F7FF;
+    --fntfamily: Helvetica;
+}
+
+header {
+  background-color: var(--bkgcolor);
+}
+
+main {
+  background-color: var(--bkgcolor);
+}
+
+.contactarea {
+  display: flex;
+  flex-direction: row;
+}
+
+#contactnav {
+  display: flex;
+  flex-direction: inline;
+}
+
+footer {
+  text-align: center;
+}
+
+.navbar {
+  background-color: var(--bkgcolor);
+}
+
+.about-me-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+#about-me-descr {
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+#contact-label {
+  color: var(--highlight);
+}
+
+#portfolio-label {
+  color: var(--highlight);
+}
+
+/* -- MEDIA QUERIES -- */
+@media screen and (max-width: 992px) {
+  header,
+  main,
+  nav
+  img {
+    flex-direction: column;
+  }
+
+  section,
+  article {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    header,
+    main
+    nav {
+      flex-direction: column;
+    }
+  
+    section,
+    article {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    header,
+    main,
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    section,
+    article {
+      padding-right: 0;
+      text-align: center;
+    }
+      
+    aside {
+      width: 100%;
+      text-align: center;
+      align-content: center;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

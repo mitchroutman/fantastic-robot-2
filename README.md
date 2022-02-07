@@ -6,6 +6,11 @@ The goal of this project was to create an initial draft of a functional website 
 `Previous Site
     ![Site render](assets/images/mitchell-routman-portfolio.png)
 
+`Updated Site
+    ![New site render](assets/images/...)
+
+The revised version of this portfolio utilizes Boostrap components (nav, cards) to share a more streamlined, modern layout. The cards have been replaced with boostrap components for a more professional layout for latest projects. 
+
 # TABLE OF CONTENTS
  - [Installation](#installation)
  - [Usage](#usage)
@@ -16,12 +21,13 @@ The goal of this project was to create an initial draft of a functional website 
 Clone the working files and open the index.html using your preferred browser. 
 
 ## USAGE
-This site is to be used for personal development purposes only and shared with potential employers. The site should render as below
-
+This site is to be used for personal development purposes only and shared with potential employers.
 
 
 ## CREDITS
 CSS reset by Myerweb - [http://myerweb.com/eric/tools/css/reset/](http://meyerweb.com/eric/tools/css/reset/)
+
+Boostrap components - [https://getbootstrap.com/](https://getbootstrap.com/)
 
 ## LICENSE
 Open source
